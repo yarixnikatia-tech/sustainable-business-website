@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The action audit page includes a working form that helps identify the main sustainability priorities for a fashion retailer." />
+  <title>EcoThread Studio | Action Audit</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <a id="skip" href="#content">Skip to main content</a>
+  <div id="wrapper">
+    <div id="topbar">Action audit: choose the priorities that will help the retailer become more effective and more environmentally sustainable.</div>
+    <div id="header">
+      <div id="branding">
+        <h1>EcoThread Studio</h1>
+        <p>Working form page for a practical sustainability self-audit.</p>
+      </div>
+    </div>
+    <div id="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="issue.html">The Challenge</a></li>
+        <li><a href="data.html">Data and Insights</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+        <li><a class="current" href="contact.html">Action Audit</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <div class="section two-column">
+        <div class="main-column">
+          <h2>Action audit form</h2>
+          <p class="lead-text">
+            This form demonstrates how a business could identify its biggest sustainability priorities before choosing which digital tools and operational changes to introduce.
+          </p>
+          <div class="photo-frame">
+            <img src="images/audit-team.png" alt="Illustration of a sustainability audit form with business priorities and action choices." />
+            <p>The form is static for assessment purposes, but all controls work and can be submitted like a normal web form.</p>
+          </div>
+
+          <form class="audit-form" action="contact.html" method="get">
+            <fieldset>
+              <legend>Business profile</legend>
+              <label for="business-name">Business name</label>
+              <input class="text-field" type="text" name="business-name" id="business-name" value="EcoThread Retail" />
+
+              <label for="store-type">Retail focus</label>
+              <select name="store-type" id="store-type">
+                <option value="fashion">Online fashion retailer</option>
+                <option value="activewear">Activewear specialist</option>
+                <option value="luxury">Premium lifestyle retailer</option>
+              </select>
+
+              <label for="biggest-challenge">Biggest current challenge</label>
+              <textarea name="biggest-challenge" id="biggest-challenge" rows="4" cols="40">High markdowns, rising returns and limited supplier traceability.</textarea>
+            </fieldset>
+
+            <fieldset>
+              <legend>Priority actions</legend>
+              <div class="option">
+                <input type="checkbox" name="forecasting" id="forecasting" checked="checked" />
+                <label for="forecasting">Improve forecasting and stock visibility</label>
+              </div>
+              <div class="option">
+                <input type="checkbox" name="traceability" id="traceability" checked="checked" />
+                <label for="traceability">Expand product traceability and sourcing transparency</label>
+              </div>
+              <div class="option">
+                <input type="checkbox" name="returns" id="returns" />
+                <label for="returns">Reduce return waste through better product information</label>
+              </div>
+              <div class="option">
+                <input type="checkbox" name="circular" id="circular" />
+                <label for="circular">Pilot repair, resale or take-back services</label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Decision support</legend>
+              <label for="timescale">Preferred delivery timescale</label>
+              <select name="timescale" id="timescale">
+                <option value="3months">0 to 3 months</option>
+                <option value="6months">3 to 6 months</option>
+                <option value="12months">6 to 12 months</option>
+              </select>
+
+              <label for="notes">Manager notes</label>
+              <textarea name="notes" id="notes" rows="4" cols="40">The business wants quick wins first, then longer-term circular services.</textarea>
+            </fieldset>
+
+            <input class="submit-button" type="submit" value="Build my priority roadmap" />
+            <input class="reset-button" type="reset" value="Reset form" />
+            <p class="small-note">This is a static demonstration form created for the assessment website. It can be submitted and reset, but it does not send data to a live server.</p>
+          </form>
+        </div>
+        <div class="side-column">
+          <div class="panel alt">
+            <h3>What a strong answer should show</h3>
+            <ul class="check-list">
+              <li>The chosen actions are realistic for the business.</li>
+              <li>Each action improves effectiveness and sustainability together.</li>
+              <li>Technology is used responsibly and not just for image.</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Frequently asked questions</h3>
+            <ul class="faq-list">
+              <li><strong>Does the form work?</strong> Yes. It accepts text, choices, checkboxes, submit and reset actions.</li>
+              <li><strong>Why use a form?</strong> It adds interactivity and shows how a business could organise decision-making.</li>
+              <li><strong>What next?</strong> Move back to the solutions page and compare the selected priorities with the roadmap.</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Useful buttons</h3>
+            <p><a class="button-small" href="solutions.html">Return to solutions</a></p>
+            <p><a class="button-small" href="index.html">Back to homepage</a></p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div id="footer">
+      <p><strong>Action audit summary:</strong> interactivity helps turn ideas into decisions, even in a simple static website.</p>
+      <p><a href="index.html">Home</a> | <a href="issue.html">The Challenge</a> | <a href="data.html">Data and Insights</a> | <a href="solutions.html">Solutions</a></p>
+    </div>
+  </div>
+</body>
+</html>
